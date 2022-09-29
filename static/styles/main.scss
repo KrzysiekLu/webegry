@@ -1,0 +1,40 @@
+@import "variables";
+@import "components";
+@import "navbar";
+@import "header";
+@import "main--offer";
+@import "why-worth-it";
+@import "process";
+@import "about-us";
+@import "faq";
+@import "contact";
+@import "projects";
+@import "footer";
+@import "contact";
+@import "project-x";
+@font-face {
+  font-family: "Helvetica-Nouel";
+  src: url(../source/fonts/Helvetica-NeueLTW0693BlkExtObl-2.ttf);
+}
+@font-face {
+  font-family: "Helvetica-nouel--normal";
+  src: url(../source/fonts/Helvetica-Neue-Medium-Extended.ttf);
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $primary-font, sans-serif;
+  background-color: $primary-color;
+}
+
+html {
+  font-size: 62.5%;
+  width: 100%;
+}
