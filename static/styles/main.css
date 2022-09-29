@@ -2001,6 +2001,7 @@
 .project .work__image-container {
   width: 100%;
   display: flex;
+  justify-content: center;
   margin-top: 6rem;
 }
 .project .work__image-container .work__image {
