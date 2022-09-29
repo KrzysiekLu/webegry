@@ -2005,7 +2005,7 @@
   margin-top: 6rem;
 }
 .project .work__image-container .work__image {
-  max-width: 100%;
+  width: 100%;
 }
 .project .work__info__step {
   display: flex;
