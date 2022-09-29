@@ -31,6 +31,7 @@
 }
 
 .button:hover:before {
+  color: #fff;
   background-color: #79ffd7;
   transition: all .5s;
 }
@@ -1523,6 +1524,10 @@
   position: relative;
 }
 
+.projects__container .project__button:hover {
+  color: #fff;
+}
+
 .projects__container .project__button a {
   color: #79ffd7;
   text-decoration: none;
@@ -1546,12 +1551,12 @@
   box-shadow: 0 .5rem 1.5rem #ffffff4d;
 }
 
-.projects__container .project__button:hover {
-  color: #fff;
+.projects__container .project__button:hover a {
   transition: all .5s;
+  color: #fff !important;
 }
 
-.projects__container .project__button:hover:before {
+.projects__container .project__button:hover a:before {
   background-color: #79ffd7;
   transition: all .5s;
 }
@@ -2229,6 +2234,7 @@
 
 .project .write-to-us__button {
   color: #000;
+  cursor: pointer;
   margin-top: 4rem;
   padding: .5rem 6rem 3rem 4rem;
   font-size: 2rem;
